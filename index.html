@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+<div id="top-div">
+    <input type="text" id="input-el"><br>
+    <button id="input-btn">SAVE INPUT</button>
+    <button id="tab-btn">SAVE TAB</button>
+    <hr>
+
+</div>
+
+<div class="list-div">
+    <table id="list-of-leads">
+    </table>
+</div>
+<br>
+
+<div id="footer">
+    <hr>
+    <button id="sel-all-btn" class="select-btns">SELECT ALL</button>
+    <button id="deselect-btn" class="select-btns">DESELECT ALL</button>
+    <button id="inverse-sel-btn" class="select-btns">SELECT INVERSE</button>
+    <button id="delete-sel-btn">DELETE SELECTED</button>
+    <button id="send-btn">SEND SELECTED</button>
+    <div id="contacts"></div>
+
+</div>
+<script src="index.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+body {
+    padding: 1%;
+    font-family: "Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+    min-width: 400px;
+    margin: auto;
+    text-align: center;
+    width:90%
+}
+
+button {
+    background: #5f9341;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 5px 5px;
+    font-family: "Montserrat",sans-serif;
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.select-btns{
+    border: 1px solid #5f9341;
+    color: #5f9341;
+    background: white;
+}
+
+.del-row {
+    text-align: center;
+}
+
+.list-div{
+    overflow-y:scroll;
+    max-height:300px;
+    min-height: 50px;
+    overflow-x:hidden ;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin:5px ;
+
+}
+
+td a{
+    color: #5f9341;
+}
+tr:hover {
+  background-color: lightblue;
+}
+
+td div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+
+table{
+    width: 95%;
+    table-layout: fixed;
+    text-align: left;
+    margin: auto;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+.checkbox{
+    text-align: center;
+}
+
+
+#footer{
+    padding: 2px 0px;
+    margin: auto;
+    align-items: center;
+}
+
+#top-div{
+    padding: 2px 0px
+
+}
+
+hr{
+    color: darkred;
+}
