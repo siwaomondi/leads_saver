@@ -91,3 +91,23 @@ table{
 hr{
     color: darkred;
 }
+
+
+::-webkit-scrollbar{
+    width: 0.8em;
+    height: 0.8em;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 100vw;
+    background: rgba(0, 0, 0, .5);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(0, 0, 0, .3);
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 100vw;
+    margin-block: 0.5em;
+    background:hsl(100, 80%, 100%);    
+}
